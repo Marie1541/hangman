@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hangman</title>
+  <meta name="description" content="Assignment 7" />
+  <meta name="author" content="Marie Vallieres" />
+
+  <link rel="stylesheet" href="css/stylesFlexBox.css" />
+
+  <!--Lato Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Corben&family=Great+Vibes&family=Lato:wght@300;400;700&family=Noto+Sans&family=Roboto+Slab&display=swap"
+    rel="stylesheet" />
+
+
+  <script src="scripts/01-jquery-3.7.0.min.js" defer></script>
+  <script src="scripts/02-jquery-status.js" defer></script>
+  <script src="scripts/marie20.js" defer></script>
+
+</head>
+
+<body>
+  <header class="flex-container-long">
+
+    <div class="flex-item-long">
+      <h1>COMP2132 Hangman</h1>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="flex-container">
+
+
+      <div id="insideflex-container">
+
+        <div class="flex-item">
+
+          <div class="flex-item2">
+
+
+
+            <div class="topMessageDiv">
+
+
+              <h4>Hangman game</h4>
+              <p>Good luck!</p>
+            </div>
+
+            <div id="imageContainer">
+              <img id="imageHangmanID" class="hangman-box">
+            </div>
+          </div>
+
+
+
+
+
+          <div id="letterSlotsContainer">
+            <ul class="wordDisplay"></ul>
+          </div>
+          <div id="space"></div>
+          <div id="letterClueContainer">
+            <h4 class="hint-text">Hint: <b></b></h4>
+          </div>
+
+
+
+
+
+
+
+
+          <div id="outputSelectedLetters">
+
+          </div>
+
+
+          <div id="keyboard" class="keyboard">
+
+          </div>
+          <div id="playAgainCountainer">
+            <button class="buttonLikeKey" id="play_againButton">Play Again</button>
+          </div>
+
+
+
+
+          <div id="output"></div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+    </div><!--flex-container-->
+
+
+  </main>
+
+  <footer class="flex-container-long">
+    <h2>Thank you!</h2>
+  </footer>
+
+</body>
+
+</html>
