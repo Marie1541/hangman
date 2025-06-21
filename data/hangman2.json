@@ -1,1 +1,41 @@
+{
+       "wordList": [
+    
+    {
+        "word" : "mocha",
+        "hint" : "What chocolate-flavored coffee drink gets its name from a city in Yemen that was once a center of the coffee trade?"
+    },
+    {
+        "word" : "italy",
+        "hint" : "Which country is credited with popularizing espresso?"
+    },
+    {
+        "word" : "coffee",
+        "hint" : "What is the most widely consumed beverage in the world after water?"
+    },
+    {
+        "word" : "latte",
+        "hint" : "What is the name for a coffee drink with steamed milk and a small amount of foamed milk?"
+    },
+    {
+        "word" : "crema",
+        "hint" : "What is the name of the creamy layer on top of an espresso shot?"
+    },
+    {
+        "word" : "brazil",
+        "hint" : "Which country is the largest producer of coffee?"
+    },
+    {
+        "word" : "black",
+        "hint" : "Name a way people drink coffee without any add-ins."
+    },
+    {
+        "word" : "drip",
+
+
+        "hint" : "What is the most popular coffee brewing method?"
+    }
+]
+}
+
 
